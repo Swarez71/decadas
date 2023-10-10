@@ -1,0 +1,60 @@
+.jcarousel-skin .jcarousel-container {
+	position:absolute;
+	top:0px;
+	left:2px;
+	background:transparent url(https://www.dropbox.com/s/5jb9fhtjgas8e69/bg.png?dl=1) repeat top left;
+	-moz-border-radius:0px 0px 0px 10px;
+	-webkit-border-bottom-left-radius:10px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+}
+.jcarousel-skin .jcarousel-container-horizontal {
+    width: 583px;
+    padding: 12px 40px;
+}
+.jcarousel-skin .jcarousel-clip-horizontal {
+    width:  578px;
+    height: 80px;
+}
+.jcarousel-skin .jcarousel-item {
+    width: 67px;
+    height: 80px;
+}
+.jcarousel-skin .jcarousel-item-horizontal {
+    margin: 0px 16px 0px 0px;
+}
+
+.jcarousel-skin .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+.jcarousel-skin .jcarousel-next-horizontal {
+border-left: 12px solid #fff; 
+border-top: 20px solid transparent; 
+border-bottom: 20px solid transparent;
+
+	 
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    width: 16px;
+    height: 0px;
+    cursor: pointer;
+	 	
+/*    background: transparent url(https://www.dropbox.com/s/kybhz3ivuso15s3/br_next.png?dl=1) no-repeat center center;*/
+}
+.jcarousel-skin .jcarousel-prev-horizontal {
+border-right: 12px solid #fff; 
+border-top: 20px solid transparent; 
+border-bottom: 20px solid transparent;
+
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    width: 16px;
+    height: 0px;
+    cursor: pointer;
+/*    background: transparent url(https://www.dropbox.com/s/h4vuo9tmjav6jow/br_prev.png?dl=1) no-repeat center center;*/
+}
+
+
